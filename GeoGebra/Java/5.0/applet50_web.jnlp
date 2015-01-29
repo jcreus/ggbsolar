@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://jars.geogebra.org/webstart/5.0/" href="" version="5.0.57.0">
+    <information>
+        <title>GeoGebraTube 5.0</title>
+        <vendor>International GeoGebra Institute</vendor>
+        <homepage href="http://tube.geogebra.org"/>
+        <icon href="http://www.geogebra.org/static/images/ggb-logo-128x128-transparent.png"/>
+        <description>Dynamic Mathematics for Everyone</description>
+    </information>
+    <security><all-permissions/></security>
+	
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+            href="http://java.sun.com/products/autodl/j2se" />
+       <jar href="geogebra.jar" main="true"/>
+       <jar href="geogebra_main.jar"/>
+       <jar href="geogebra_gui.jar"/>
+       <jar href="geogebra_cas.jar"/>
+       <jar href="geogebra_algos.jar"/>
+       <jar href="geogebra_export.jar"/>
+       <jar href="geogebra_javascript.jar"/>
+       <jar href="jlatexmath.jar"/>
+       <jar href="jlm_greek.jar"/>
+       <jar href="jlm_cyrillic.jar"/>
+       <jar href="geogebra_properties.jar"/>
+       <jar href="geogebra_3d.jar"/>
+       <jar href="jogl.all.jar"/>
+       <jar href="gluegen-rt.jar"/>
+       <jar href="OpenGeoProver.jar"/>
+   </resources>
+   <resources os="Windows" arch="x86">
+        <nativelib href="javagiac-win32.jar"/>
+   </resources>
+   <resources os="Windows" arch="amd64">
+        <nativelib href="javagiac-win64.jar"/>
+   </resources>
+   <resources os="Mac OS X" arch="i386">
+        <nativelib href="javagiac-mac.jar"/>
+   </resources>
+   <resources os="Mac OS X" arch="x86">
+        <nativelib href="javagiac-mac.jar"/>
+   </resources>
+   <resources os="Mac OS X" arch="x86_64">
+        <nativelib href="javagiac-mac.jar"/>
+   </resources>
+   <resources os="Linux" arch="i386">
+        <nativelib href="javagiac-linux32.jar"/>
+   </resources>
+   <resources os="Linux" arch="x86">
+        <nativelib href="javagiac-linux32.jar"/>
+   </resources>
+   <resources os="Linux" arch="amd64">
+        <nativelib href="javagiac-linux64.jar"/>
+   </resources>
+
+    <applet-desc 
+         name="GeoGebra Applet"
+         main-class="geogebra.GeoGebraApplet"
+         width="300"
+         height="300">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>

@@ -1,0 +1,29 @@
+CACHE MANIFEST
+# Unique id #1420879495853.0.856927143870304
+# Note: must change this every time for cache to invalidate
+
+CACHE:
+# Static app files
+
+# Generated app files
+9F61182EE8EE5387FE55A1F0E81CA8BD.cache.js
+clear.cache.gif
+css/fonts.css
+deferredjs/9F61182EE8EE5387FE55A1F0E81CA8BD/1.cache.js
+deferredjs/9F61182EE8EE5387FE55A1F0E81CA8BD/2.cache.js
+deferredjs/9F61182EE8EE5387FE55A1F0E81CA8BD/3.cache.js
+deferredjs/9F61182EE8EE5387FE55A1F0E81CA8BD/4.cache.js
+font/GeogebraSans-Regular.ttf
+font/GeogebraSerif-Regular.ttf
+html/ggtcallback.html
+html/opener.html
+js/webfont.js
+js/workercheck.js
+js/zipjs/deflate.js
+js/zipjs/inflate.js
+web.nocache.js
+
+
+# All other resources require the user to be online.
+NETWORK:
+*

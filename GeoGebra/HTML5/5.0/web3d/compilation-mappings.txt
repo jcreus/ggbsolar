@@ -1,0 +1,97 @@
+536C49FADF1D8E06A74107A2135C17F0.cache.js
+ClientBundle.enableInlining true
+audioElementSupport maybe
+canvasElementSupport maybe
+compiler.emulatedStack false
+compiler.predeclare.cross.fragment.references false
+compiler.stackMode strip
+compiler.useSourceMaps false
+compiler.useSymbolMaps false
+dragEventSupport maybe
+geolocationSupport maybe
+gwt.enableDebugId false
+gwt.forceBidi false
+gwt.logging.enabled FALSE
+gwt.suppressNonStaticFinalFieldWarnings false
+gwt.unloadEnabled false
+locale default
+storageSupport maybe
+superdevmode off
+touchEventSupport maybe
+user.agent gecko1_8
+videoElementSupport maybe
+webApiUsage modern
+
+536C49FADF1D8E06A74107A2135C17F0.cache.js
+ClientBundle.enableInlining true
+audioElementSupport maybe
+canvasElementSupport maybe
+compiler.emulatedStack false
+compiler.predeclare.cross.fragment.references false
+compiler.stackMode strip
+compiler.useSourceMaps false
+compiler.useSymbolMaps false
+dragEventSupport maybe
+geolocationSupport maybe
+gwt.enableDebugId false
+gwt.forceBidi false
+gwt.logging.enabled FALSE
+gwt.suppressNonStaticFinalFieldWarnings false
+gwt.unloadEnabled false
+locale default
+storageSupport maybe
+superdevmode off
+touchEventSupport maybe
+user.agent ie10
+videoElementSupport maybe
+webApiUsage modern
+
+536C49FADF1D8E06A74107A2135C17F0.cache.js
+ClientBundle.enableInlining true
+audioElementSupport maybe
+canvasElementSupport maybe
+compiler.emulatedStack false
+compiler.predeclare.cross.fragment.references false
+compiler.stackMode strip
+compiler.useSourceMaps false
+compiler.useSymbolMaps false
+dragEventSupport maybe
+geolocationSupport maybe
+gwt.enableDebugId false
+gwt.forceBidi false
+gwt.logging.enabled FALSE
+gwt.suppressNonStaticFinalFieldWarnings false
+gwt.unloadEnabled false
+locale default
+storageSupport maybe
+superdevmode off
+touchEventSupport maybe
+user.agent ie9
+videoElementSupport maybe
+webApiUsage modern
+
+536C49FADF1D8E06A74107A2135C17F0.cache.js
+ClientBundle.enableInlining true
+audioElementSupport maybe
+canvasElementSupport maybe
+compiler.emulatedStack false
+compiler.predeclare.cross.fragment.references false
+compiler.stackMode strip
+compiler.useSourceMaps false
+compiler.useSymbolMaps false
+dragEventSupport maybe
+geolocationSupport maybe
+gwt.enableDebugId false
+gwt.forceBidi false
+gwt.logging.enabled FALSE
+gwt.suppressNonStaticFinalFieldWarnings false
+gwt.unloadEnabled false
+locale default
+storageSupport maybe
+superdevmode off
+touchEventSupport maybe
+user.agent safari
+videoElementSupport maybe
+webApiUsage modern
+
+Devmode:devmode.js
