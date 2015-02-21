@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Double pendulum</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta property="og:title" content="test" />
+<meta property="og:image" content="http://tube.geogebra.org/files/00/00/59/33/material-593385-thumb.png" />
+        <link rel="stylesheet" type="text/css" href="GeoGebra/css/worksheet.simpleggb.css?v=1.33" />
+        <link href="GeoGebra/files/appComp/shared/mathquillggb.css?v=1.33" media="screen" rel="stylesheet" type="text/css" />
+<link href="GeoGebra/css/compiled.css?v=1.33" media="screen" rel="stylesheet" type="text/css" />
+        
+                    <script type="text/javascript" src="GeoGebra/scripts/jquery.js?v=1.33"></script>
+        
+        <!-- worksheet general is needed for resizing the wsf-scroller!! don't remove! -->
+        
+        
+        <script type="text/javascript" src="GeoGebra/scripts/worksheet/general.js?v=1.33"></script>
+<script type="text/javascript" src="GeoGebra/scripts/deployggb.js?v=1.33"></script>
+<script type="text/javascript" src="GeoGebra/files/appComp/shared/min.js?v=1.33"></script>
+<script type="text/javascript" src="GeoGebra/files/appComp/shared/mathquillggb.js?v=1.33"></script>
+    </head>
+
+    <body class="simple scrolling">
+
+        
+<div class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <div style="direction: ltr">
+
+        
+        <div class="wsf-ws-scroller">
+            <div class="wsf-wrapper">
+
+                                <h1 itemprop="headline" class="wsf-worksheet-title">
+				<button id="hi">Run</button>				</h1>
+            	  
+                
+
+                                    <p itemprop="articleBody">
+Llargada 1: <input id="l1" value="3" size="3">&nbsp;
+Llargada 2: <input size="3" id="l2" value="1">&nbsp;
+Angle 1: <input id="a1" value="-Math.PI/4" size="6">&nbsp;
+Angle 2: <input id="a2" value="Math.PI/2" size="6">&nbsp;
+Massa 1: <input id="m1" value="5" size="3">&nbsp;
+Massa 2: <input id="m2" value="1" size="3">&nbsp;
+</p>
+                
+                
+<script type="text/javascript">
+    var parameters = {"id":"ggbApplet","width":1366,"height":626,"showToolBar":false,"showMenuBar":false,"showAlgebraInput":false,"showResetIcon":true,"enableLabelDrags":false,"enableShiftDragZoom":true,"enableRightClick":false,"showToolBarHelp":false,"errorDialogsActive":true,"useBrowserForJS":false,"ggbBase64":"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","language":"en","isPreloader":false,"screenshotGenerator":false,"preventFocus":false,"fixApplet":false};
+    parameters.appletOnLoad = function() {
+        if (typeof $ === "function" && window.GGBT_wsf_view !== undefined) {
+            var container =  $("#applet_container_699259");
+            window.GGBT_wsf_view.postProcessApplet(container);
+        }
+    };
+    /** is3D=is 3D applet using 3D view, AV=Algebra View, SV=Spreadsheet View, CV=CAS View, EV2=Graphics View 2, CP=Construction Protocol, PC=Probability Calculator, DA=Data Analysis, FI=Function Inspector, PV=Python, macro=Macro View */
+    var views = {"is3D":false,"AV":true,"SV":false,"CV":false,"EV2":false,"CP":false,"PC":false,"DA":false,"FI":false,"PV":false,"macro":false};
+    var applet = new GGBApplet('5.0', parameters, views);
+
+    applet.setJNLPBaseDir('http://tube.geogebra.org/webstart/');
+    applet.setGiacJSURL('http://tube.geogebra.org/webstart/4.4/giac.js');
+    var appletType_699259 = 'auto';
+
+    window.onload = function() {
+        applet.inject('applet_container', 'auto');
+    }
+</script>
+
+
+    <div style="display:block;min-width:1366px;min-height:648px" id="applet_container">
+    </div>
+
+                				               
+				            </div>
+        </div>
+
+        
+    </div>
+	<script src="pendulum.js" type="text/javascript"></script>
+
+</div>
+    </body>
+</html>
